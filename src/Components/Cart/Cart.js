@@ -83,7 +83,7 @@ function Cart() {
                <button className="text-[red] w-5 h-5" onClick={() => handleDelete(e.id)}><BsFillTrashFill/></button>
               </div>
               </div>
-              <Payment sum={e.quantity * e.numSum} number={cart.length} total={e.temptotalPrice}/>
+              <Payment sum={e.quantity * e.numSum} number={cart.length} total={e.newTotalPrice}/>
             </div>
           ))}
         <div className="flex flex-col items-center absolute right-0 bottom-0">

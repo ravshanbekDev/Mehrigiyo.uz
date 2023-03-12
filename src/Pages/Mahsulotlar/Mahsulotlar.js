@@ -24,7 +24,7 @@ function Mahsulotlar() {
       caption: "ROHAT Yog`i №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 16000,
       img: yog,
     },
     {
@@ -32,7 +32,7 @@ function Mahsulotlar() {
       caption: "Rohat Sirop",
       info: "Erkaklar kuchi",
       num: "200,190,",
-      numSum: "150 000",
+      numSum: 150000,
       img: sirop,
     },
     {
@@ -40,7 +40,7 @@ function Mahsulotlar() {
       caption: "Organic Bananas",
       info: "7pcs, Price",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 16000,
       img: bananas,
     },
     {
@@ -48,7 +48,7 @@ function Mahsulotlar() {
       caption: "ROHAT Yog`i №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 16000,
       img: RohatYogi,
     },
     {
@@ -56,7 +56,7 @@ function Mahsulotlar() {
       caption: "ROHAT Yog`i №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 16000,
       img: yog,
     },
     {
@@ -64,7 +64,7 @@ function Mahsulotlar() {
       caption: "ROHAT Yog`i №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 16000,
       img: yog,
     },
     {
@@ -72,7 +72,7 @@ function Mahsulotlar() {
       caption: "Organic Bananas",
       info: "7pcs, Price",
       num: "17,200,",
-      numSum: "15 000",
+      numSum: 15000,
       img: bananas,
     },
     {
@@ -80,7 +80,7 @@ function Mahsulotlar() {
       caption: "Rohat Sirop",
       info: "Erkaklar kuchi",
       num: "200,190,",
-      numSum: "150 000",
+      numSum: 150000,
       img: sirop,
     },
     {
@@ -88,7 +88,7 @@ function Mahsulotlar() {
       caption: "ROHAT",
       info: "Mavjud",
       num: "20,000,",
-      numSum: "12 000",
+      numSum: 12000,
       img: yog,
     },
   ];
