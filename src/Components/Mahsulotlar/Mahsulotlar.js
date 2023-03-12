@@ -19,7 +19,7 @@ function Products() {
       caption: "ROHAT Yogi №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 20000,
       img: yog,
     },
     {
@@ -27,7 +27,7 @@ function Products() {
       caption: "Rohat Sirop",
       info: "Erkaklar kuchi",
       num: "200,190,",
-      numSum: "150 000",
+      numSum: 150000,
       img: sirop,
     },
     {
@@ -35,7 +35,7 @@ function Products() {
       caption: "Organic Bananas",
       info: "7pcs, Price",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 10000,
       img: bananas,
     },
     {
@@ -43,7 +43,7 @@ function Products() {
       caption: "ROHAT Yogi №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 12000,
       img: RohatYogi,
     },
     {
@@ -51,7 +51,7 @@ function Products() {
       caption: "ROHAT Yog`i №2",
       info: "Mavjud",
       num: "17,190,",
-      numSum: "16 000",
+      numSum: 16000,
       img: yog,
     },
   ];

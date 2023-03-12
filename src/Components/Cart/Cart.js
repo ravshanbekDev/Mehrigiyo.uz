@@ -78,12 +78,12 @@ function Cart() {
                 </span>
                 <span className="flex flex-col items-start">
                   <h1 className="text-[#7C7C7C;] line-through">{e.num} uzs</h1>
-                  <p className="text-[#53B175] font-bold text-[24px]">{e.numSum}</p>
+                  <p className="text-[#53B175] font-bold text-[24px]">{e.numSum} uzs</p>
                 </span>
                <button className="text-[red] w-5 h-5" onClick={() => handleDelete(e.id)}><BsFillTrashFill/></button>
               </div>
               </div>
-              <Payment sum={e.numSum * e.quantity} number={cart.length} total={e.toggleCartQty} key={e.id}/>
+              <Payment sum={e.quantity * e.numSum} number={cart.length} total={e.temptotalPrice}/>
             </div>
           ))}
         <div className="flex flex-col items-center absolute right-0 bottom-0">
