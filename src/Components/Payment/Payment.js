@@ -1,6 +1,11 @@
 import React from "react";
 import "./Payment.scss";
 function Payment({ number, sum, total }) {
+  const oneTimePayment = sum.toFixed(2);
+  const handleClick = () => {
+    alert(`You will be charged ${oneTimePayment} UZS for your order.`);
+  };
+
   return (
     <div className="Payment">
       <div className="Payment__infp">
@@ -22,7 +27,7 @@ function Payment({ number, sum, total }) {
         </span>
       </div>
       <div className="flex flex-col gap-4 mt-[30px]">
-        <button className="Payment__btn bg-[#53B175] text-white font-semibold">
+        <button className="Payment__btn bg-[#53B175] text-white font-semibold" onClick={handleClick}>
           To’lovga o’tish
         </button>
         <button className="Payment__btn bg-[#EEF8F2] text-[#181725]">
