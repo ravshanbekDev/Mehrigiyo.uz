@@ -1,0 +1,66 @@
+.modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  z-index: 999;
+  background-color: rgb(0, 0, 0, 0.5);
+  opacity: 0;
+  &__content {
+    position: relative;
+    background: #fafbfc;
+    border-radius: 30px 30px 0px 0px;
+    padding: 40px;
+    width: 1440px;
+    height: 700px;
+    background-image: url(../../Assets/Images/barg.png), url(../../Assets/Images/leafss.png);
+    background-repeat: no-repeat;
+    background-size: 430px, 225px;
+    background-position: right bottom, left 20px top 30px;
+  }
+  &__x{
+    position: absolute;
+    right: 40px;
+  }
+  &__card {
+    border: 2px solid #53b175;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.06));
+    border-radius: 10px;
+    width: 81.33px;
+    height: 80px;
+  }
+  &__cards {
+    border: 1px solid #e2e2e2;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.06));
+    border-radius: 10px;
+    width: 81.33px;
+    height: 80px;
+  }
+  &__img {
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.06));
+    border-radius: 16px;
+    width: 271.5px;
+    height: 270.04px;
+  }
+  &__btn {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    background: #53b175;
+    border-radius: 100px;
+    padding: 16px 30px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff9ff;
+  }
+}
+
+.modal.active {
+  opacity: 1;
+}

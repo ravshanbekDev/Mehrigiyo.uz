@@ -1,0 +1,40 @@
+@media only screen and (max-width: 550px) {
+  .NavHero {
+    &__wrap {
+      gap: 40px;
+    }
+    &__caption {
+      font-size: 25px;
+    }
+    &__link_wrap {
+      gap: 10px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .NavHero {
+    padding: 5px 20px;
+    &__wrapper {
+      align-items: flex-start;
+    }
+    &__wrap {
+      gap: 5px;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+    &__caption {
+      font-size: 20px;
+    }
+    &__link_wrap {
+      gap: 5px;
+      flex-direction: column;
+    }
+    &__link {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.Boshsahifa {
+  background-image: url(../../Assets/Images/bgGreen.png);
+  background-repeat: no-repeat;
+  background-size: 100% 660px;
+  background-position: top;
+  padding-top: 100px;
+
+  &__caption {
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    color: #000000;
+  }
+  &__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .Boshsahifa {
+    padding-top: 50px;
+    &__caption {
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    }
+    &__description {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+    }
+  }
+}

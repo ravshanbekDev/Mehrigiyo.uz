@@ -1,0 +1,42 @@
+.NavCard {
+  background-color: #fafbfc;
+  border: 1px solid #e2e2e2;
+  border-radius: 18px;
+  width: 240px;
+  height: 378px;
+  &__caption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #181725;
+  }
+  &__info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #7c7c7c;
+  }
+  &__wrap {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 16px;
+  }
+  &__num {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #808080;
+    text-align: left;
+  }
+  &__numSum {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #53b175;
+  }
+}
